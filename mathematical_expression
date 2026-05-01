@@ -1,0 +1,37 @@
+x=5
+y=7
+print(x,y)
+z=(x+y)**2
+print("The square of the sum of component x and y is:",z)
+
+# simply expression
+a=3
+output=a**2-4*a+4
+print("The final result of following expression is:",output)
+
+# evaluate (a+b)(a-b)
+a=6
+b=2
+c=(a+b)*(a-b)
+print("The value of the expression is :",c)
+
+# evaluate a3+b3
+a=1
+b=2
+print(a,b)
+c=a**3+b**3
+print("The result of expression is:",c)
+
+# simply (x-y)2
+a=10
+b=6
+print(a,b)
+c=(a-b)**2
+print("The value of expression is:",c)
+
+# difference of cubes x3-y3
+a=4
+b=1
+print(a,b)
+c=a**3-b**3
+print("The value of expression is:",c)

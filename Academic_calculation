@@ -1,0 +1,26 @@
+# a=int(input("The obtained marks:"))
+# b=int(input("The total marks:"))
+# c=a/b*100
+# print("The percentage of student is:",c)
+
+# calculate the average and total of four subjects
+sub1=80
+sub2=75
+sub3=90
+sub4=85
+print(sub1,sub2,sub3,sub4)
+total=sub1+sub2+sub3+sub4
+print("The total of all the numbers is:",total)
+average=total/4
+print("The average marks of student is:",average)
+
+# average of three numbers
+num1=25
+num2=35
+num3=45
+print(num1,num2,num3)
+total=num1+num2+num3
+average=total/3
+print("The average of three numbers is:",average)
+
+

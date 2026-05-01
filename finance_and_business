@@ -1,0 +1,35 @@
+cp=500
+sp=600
+print(cp,sp)
+output=sp-cp
+print("The profit/loss is:",output)
+
+# calculate simple interest
+p=10000
+r=5
+t=2
+print(p,r,t)
+si=p*r*t/100
+print("The simple interest is:",si)
+
+# calculate the tax on income
+income=50000
+tax_rate=10
+print(income,tax_rate)
+tax=income*tax_rate/100
+print("The taxable amount is:",tax)
+
+
+# calculate the percentage increase or decrease
+a=200
+b=250
+print(a,b)
+output=a-b
+p=output/a
+print("The percentage change is:",p)
+
+
+# calculate compound interest
+p=50000
+r=5
+t=2

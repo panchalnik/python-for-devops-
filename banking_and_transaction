@@ -1,0 +1,24 @@
+# update balance after deposit
+a=int(input("initial_balance is :"))
+b=int(input("deposit_amount is :"))
+print(a,b)
+c=a
+d=a+b
+print("The current balance is",c)
+print("The balance after deposit is",d)
+
+# update balance after withdrawl
+a=int(input("current balance is:"))
+b=int(input("withdrawl amount is:"))
+c=a-b
+print("The current balance after withdrawl is :",c)
+
+# increase shopping cart items by 3
+a=int(input("The price of cart item is:"))
+b=a+3
+print("The increased amount of carted item is:",b)             
+
+# apply a 20% discount to a price
+a=int(input("Item price is:"))
+b=a*0.2
+print("The discounted price is:",b)

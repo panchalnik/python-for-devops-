@@ -1,7 +1,7 @@
-# a=int(input("The obtained marks:"))
-# b=int(input("The total marks:"))
-# c=a/b*100
-# print("The percentage of student is:",c)
+a=int(input("The obtained marks:"))
+b=int(input("The total marks:"))
+c=a/b*100
+print("The percentage of student is:",c)
 
 # calculate the average and total of four subjects
 sub1=80

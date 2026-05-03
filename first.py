@@ -16,3 +16,4 @@ print("The exponential value of a and b is ", power)
 a=input("enter your number :")
 # here the a is a string type input  but if you want any number in it than you have to make it int.
 # a=int(input("enter your number :"))
+print()

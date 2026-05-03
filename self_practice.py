@@ -26,3 +26,6 @@ a='''he said, i am your friend
 and i live in ghaziabad that is just 20kms
 away from your location,so if u are free can we meet.'''
 print(a)
+print()
+print(-------------------)
+print(😂😂😂😂😂)

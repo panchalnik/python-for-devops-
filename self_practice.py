@@ -29,3 +29,5 @@ print(a)
 print()
 print(-------------------)
 print(😂😂😂😂😂)
+      
+    #   idhar error ye hai ki maine print ke ander "" nahi use kiya tha tabhi wo error aa raha tha

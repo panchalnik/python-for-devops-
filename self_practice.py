@@ -22,12 +22,85 @@
 
 # you cannot put double quotes into double quotes it will give you error
 # triple single quotes ke ander aap multiple lines print karwa sakte wo as a string act karegi u can write anything in it.
-a='''he said, i am your friend
-and i live in ghaziabad that is just 20kms
-away from your location,so if u are free can we meet.'''
-print(a)
-print()
-print(-------------------)
-print(😂😂😂😂😂)
+# a='''he said, i am your friend
+# and i live in ghaziabad that is just 20kms
+# away from your location,so if u are free can we meet.'''
+# print(a)
+# print()
+# print(-------------------)
+# print(😂😂😂😂😂)
       
-    #   idhar error ye hai ki maine print ke ander "" nahi use kiya tha tabhi wo error aa raha tha
+#     #   idhar error ye hai ki maine print ke ander "" nahi use kiya tha tabhi wo error aa raha tha
+
+# fruit="Mango"
+# print(fruit[0:3])
+# print(len(fruit))  #len is used to find length of string
+# [0:5] this print the exact value placed on that
+# agar len negative given hai then aap usko string ki length se subtract karke exact value daal do
+  
+# immutable matlb you cannot change aap string ko inplace change
+# nahi kar sakte par aap uski ek copy banasakte ho ....
+# string are immutable  
+
+# a="!!!!!Manisha!!!!!!"
+# print(len(a))
+# print(a.upper())   #converts string in upper case ye ourani 
+# # ko change nai karega infact nayi string bana dega
+# print(a.lower())
+# # print(a.rstrip)
+# # lecture 13 of code with harry
+
+ #wap to write good morning sir
+# Time=int(input("Enter your timing:"))
+# if Time<=12:
+#     print("GOOD MORNING")
+# else time:
+#     print("good afternoon")
+
+#loop
+# name="Abhishek"
+# for i in name:
+#     print(i)
+#     if (i=="s"):
+#         print("s stands for shakira shakira")
+
+# i is line se ek k nneche ek print karwa do
+
+# colors=["Red","green","blue","yellow","white"]
+# for color in colors:
+#     print(color)
+#     for i in color:
+#         print(i)
+
+#range in for loop
+# for k in range(5):
+#     print(k)
+# for k in range(50):
+#     print(k)    
+
+# # output hamesha zero se aaega lekin agar aap 1 se
+# # print chahte ho toh print mai k+1 daal do
+# print(k+1)
+
+# for k in range(1,10):   #range define karne par hamesha ek pt kam jaega.
+#     print(k)
+
+# for k in range(1,100):
+    # print(k+1)    
+
+# for k in range(1,15,3): #jab aap teen words ko involve karte ho toh third factor important role play karta h
+#     print(k)  
+
+#while loop
+# i=0
+# while(i<4):
+#     print(i)
+#     i=i+1
+# print("Done with the loop")    
+
+# i=int(input("Enter your number :"))
+# while(i<=5):
+#     i=int(input("Enter your number :"))
+#     print(i)
+
+# print("I am done with the program")

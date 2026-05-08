@@ -1,5 +1,5 @@
-# 6.identity opr (is/ is not) -used to check address of input and mostly numbers ke liye use kiya jata hai 
-# character par bhi use hota hai but members par jyada use hota h 
+# 6.identity opr (Id) (is/ is not) -used to check address of input and mostly numbers ke liye use kiya jata hai 
+# character par bhi use hota hai but numbers par jyada use hota h 
 # a=10
 # b=10
 # print(id(a))
@@ -13,12 +13,12 @@
 # print(a  is b)
 # print(a is not b)
     
-# conditional statement
+# conditional statement (decision making like -usko intelligent banane ka)
 # a=100
 # b=1000
 # c=1000
 # if a==b and b==c:     
-    # idhar maine comparison kiya hai assign nahi kiya
+#     # idhar maine comparison kiya hai assign nahi kiya
 #     print("The address is same")
 # else:
 #     print("The address is not same ")    
@@ -28,7 +28,7 @@
 #     print("The address is not same ")     
 
 
-# a=2
+# a=2       #agar a defined nahi hota toh wo by default 0 leta and o is considered as false in computer language.
 # if a:
 #     print("yes")
 # else:
@@ -40,7 +40,7 @@
 #     print("yes")
 # else:
 #     print("no")       
-# ye hamesha 0 and 1 ko hamesha true aur false ke terms mai consider karega
+# # # ye hamesha 0 and 1 ko hamesha true aur false ke terms mai consider karega
 
 
 # if True*0:            #yaha par True ko 1 considder karenge
@@ -104,7 +104,7 @@
 #     print(f"{num3} is smallest")      
 
 #aap multiple conditions ke liye continuous if statement chala sakte ho.  
-# ye multiple if ki condition hai, tho har output check hoga aur jo bhi sahi hoga sb print hoga'
+# ye multiple if ki condition hai, tho har output check hoga aur jo bhi sahi hoga sb print hoga',multiple if means multiple output.
 
 # n=100
 # if n>500:
@@ -126,12 +126,140 @@
 # elif condition - mila jula ke output ek hi aaega
     #  jaha bhi true condition millli wahi program terminate ...lekin multiple if mai esa nahi hai
 n=100
-if n>500:
-    print("Yes1")
-elif n>60:
-    print("Yes2")
-elif n>70:
-    print("Yes3")        
+# if n>500:
+#     print("Yes1")
+# elif n>60:
+#     print("Yes2")
+# elif n>70:
+#     print("Yes3")        
+# # else:
+    # print("No")    #yaha ye else phle wala if ke liye hai ,,,agar ap else  part hata deta ho else if mai toh+ aur sari condition 
+#     #false hoti hai then koi output nahi aaega.
+
+
+# o7/may
+# nested if else
+# name=" "
+# if name=="Dev":
+#     print("Yes name is provided")
+# else:
+#     print("Name is not provided")    
+    
+# name="aman "
+# if name:                 #because name is already mentioned earlier .
+#     print("Yes name is provided")
+# else:
+#     print("Name is not provided")    
+
+
+# name="aman"  #if name is removed then output is name is not provided. wo pura if statement hi wrong ho jaega tho directly else part par aajaega.
+# if name:  # this means name ki value exists karti h              #because name is already mentioned earlier .
+#   print(f"Yes {name} is provided")
+#   address="Noida"
+#   if address:
+#      print(f"Yes address is {address} provided")
+#   else:
+#      print("Address is not provided")   
+# else:
+#     print("Name is not provided")    
+# print(id(name))
+
+#with the help of conditional statement we are making our program smart.
+
+# num1=20
+# if num1%2==0:
+#     print("EVEN")
+#     mob=input("Enter your number:") 
+#     country_code=int(input("Enter your country code:"))
+#     print(mob)
+#     if len(mob)==10 and country_code==+91:
+#         print("valid number")
+#     else:
+#         print("Invalid number")    
+# else:
+#     print("ODD")    
+
+
+pre_marks=int(input("Enter your pre marks: "))
+if pre_marks>=400:
+    print("You are eligible for mains exam")
+    mains_marks=int(input("Enter your mains marks:"))
+    if mains_marks>=700:
+        print("Congratulations your are eligible for interview")
+    else:  
+        print("sorry your are not eligible for interview")
+    interview_marks=int(input("Enter your interview marks :"))
+    if interview_marks>=250:
+        print("congratulations, wait for the merit list") 
+
+    total_marks=mains_marks+ interview_marks
+    if total_marks>=950:
+        print("conjgratulation you are selected")
+
+    else:
+        print("Better luck next time,❌❌")
+
+    
 else:
-    print("No")    #yaha ye else phle wala if ke liye hai ,,,agar ap else  part hata deta ho else if mai toh+ aur sari condition 
-    #false hoti hai then koi output nahi aaega.
+    print("sorry, Better luck next time ❌❌")
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

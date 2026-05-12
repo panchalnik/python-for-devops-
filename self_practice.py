@@ -104,3 +104,16 @@
 #     print(i)
 
 # print("I am done with the program")
+
+# fruit="Mango" 
+# print(fruit[:])#called slicing of string
+
+# print(fruit.upper())
+# print(fruit.lower())
+# print(fruit.replace("Mango","lichi"))
+
+a="introduction to python"
+print(a.capitalize())
+print(a.center(50))
+print(len(a.center(50)))
+print(a.count("to"))

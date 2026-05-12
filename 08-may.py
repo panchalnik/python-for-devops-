@@ -12,13 +12,13 @@
 # range has three parameter(start:0,stop-1,step:1)  step means one step at a time and step by default is 1.
 # range always works with integer number
 # for i in range(5):
-    # print(i)
+#     print(i)
 
 # for i in range(1,5,2):     #here 2 is step menas 2 ka increment
     # print(i)   
 
 # for i in range(2,8,10):  
-#     print(i)
+#     print(i,end=" ")
 
 # for i in range(1,10,1):
     # print(i,end=" ")         #end command for horizotal series.
@@ -26,12 +26,12 @@
 # for i in range(1,20):
 #     if i==10:
 #         break    #program break at 10
-#     print(i)    
+#     print(i,end=" ")    
 
 # for i in range(1,20):
 #     if i==10:
 #         continue
-#     print(i)    
+#     print(i,end=" ")    
 
 # for i in range(1,40):
 #        if i%2==0:
@@ -90,3 +90,22 @@
 # wap to take a number from user input and print reversed formated table.
 # 3x10=30
 # 3x9=27
+#nested loop
+
+# for i in range(1,6):
+#     print(i,"first loop")
+#     for j in range(1,6):
+#         print("inner loop")
+#         for k in range(1,6):
+#             print(i,"chota loop")
+
+
+# emp_name=["aman","kamal","nilesh","raju"]
+# print(emp_name[0],end=" ")
+
+# for i in emp_name:
+#     print(i,end=" ")
+
+
+
+

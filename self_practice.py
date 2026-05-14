@@ -72,7 +72,7 @@
 #     for i in color:
 #         print(i)
 
-#range in for loop
+# range in for loop
 # for k in range(5):
 #     print(k)
 # for k in range(50):
@@ -86,7 +86,7 @@
 #     print(k)
 
 # for k in range(1,100):
-    # print(k+1)    
+#     print(k+1)    
 
 # for k in range(1,15,3): #jab aap teen words ko involve karte ho toh third factor important role play karta h
 #     print(k)  
@@ -112,8 +112,9 @@
 # print(fruit.lower())
 # print(fruit.replace("Mango","lichi"))
 
-a="introduction to python"
-print(a.capitalize())
-print(a.center(50))
-print(len(a.center(50)))
-print(a.count("to"))
+# a="introduction to python"
+# print(a.capitalize())
+# print(a.center(50))
+# print(len(a.center(50)))
+# print(a.count("to"))
+

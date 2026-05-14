@@ -11,7 +11,7 @@ print("the product of a and b is",prod)
 # and modulus gives you the remainder
 # print(f"The result of {a} and {b} is {divide}")
 power=a**b
-print("The exponential value of a and b is ", power)
+print("The exponential value of a and b is ", power) 
 # I/O operation 
 a=input("enter your number :")
 # here the a is a string type input  but if you want any number in it than you have to make it int.

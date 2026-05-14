@@ -4,7 +4,7 @@
 # print(a+b)
 # float is greater than integer
 
-# num="100" ye abhi string hai aur coma hata kar int ban jaega
+# num="100"           # ye abhi string hai aur coma hata kar int ban jaega
 # name="NIk"
 # print(num+" "+name)
 # print(type(name))

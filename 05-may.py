@@ -28,10 +28,10 @@
 # : ke baad se indent shuru hoga yani colon ki body
 
 
-email="iqindia123@gmail.com"
-find="i" and "3" and "4"
-print(find in email) 
-# kyuki mujhe 4 assign hui hai nayi value
+# email="iqindia123@gmail.com"
+# find="i" and "3" and "4"
+# print(find in email) 
+# # kyuki mujhe 4 assign hui hai nayi value
 
 
 # email="iqindia123@gmail.com"
@@ -52,11 +52,11 @@ print(find in email)
 
 
     # practice
-arun_age=20
-tarun_age=40
-if arun_age==tarun_age:  
-    print("They both are of same age")
-else:
-    print("They are not of equal age")
+# arun_age=20
+# tarun_age=40
+# if arun_age==tarun_age:  
+#     print("They both are of same age")
+# else:
+#     print("They are not of equal age")
 
 

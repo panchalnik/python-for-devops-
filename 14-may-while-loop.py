@@ -90,21 +90,78 @@
 
 
 # Print the multiplication table of a number.
-i=5
-while i>0:
-    print()
+# i=5
+# while i>0:
+#     print()
 
 # Count the digits in a number.
 
+# wap to print the total of even numbers from 1 to 15
+# i=1
+# sum=0
+# while i<=15:
+#     if i%2==0:
+#         print("The number is even",i)
+#         sum = sum+i
+#         print("The sum is:",sum)
+#     i=i+1
+        
 
-# Reverse a number using while loop.
-# Check whether a number is palindrome or not.
-# Find the sum of digits of a number.
-# Print Fibonacci series up to n terms.
-# Keep taking input from user until user enters 0.
-# Create a password checking program using while loop.
-# Print all numbers divisible by 3 and 5 between 1 and 100.
-# Find the largest digit in a number.
-# Find the smallest digit in a number.
-# Print a pattern using while loop.   
+# wap to print whether number is palindrome or not        
 
+# text="madam"
+# copy_text=text
+# rev=""
+# i=len(text)-1
+# while i>=0:
+#     rev=rev+text[i]
+#     i-=1
+# if copy_text==rev:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")    
+
+
+# var1="DevOps Engineer"
+# copy_var1=var1
+# rev=""
+# i=len(var1)-1
+# while i>=0:
+#     rev=rev+var1[i]
+#     i-=1
+# if rev==copy_var1:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")
+
+# wap to check whether a number is palindrome or not
+
+# a=12321
+# abc=str(a)
+# i=len(abc)-1
+# rev=""
+# while i>=0:
+#     rev=rev+abc[i]
+#     i-=1
+# if rev==abc:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")        
+
+# wap to reverse the digits 1234 output should be 4321
+# a=1234
+# b=str(a)
+# rev=""
+# i=len(b)-1
+# while i>=0:
+#     rev=rev+b[i]
+#     i-=1
+#     print(rev)
+
+
+a=1234
+if a%10==0:
+    print(a)    
+
+
+    

@@ -69,21 +69,21 @@
 
     
 # wap to sum of the indices of a string : "python"
-# a="python"
-# b=len(a)
-# print(b)
-# sum=0
-# for i in range(b):
-#     sum=sum+i
-#     print(sum)
+a="python"
+b=len(a)
+print(b)
+sum=0
+for i in range(b):
+    sum=sum+i
+    print(sum)
 
 #wap to print the factorial from 1 to 8
 
-fact=1
-for i in range(1,25):
+# fact=1
+# for i in range(1,25):
     
- fact=fact*i
- print(f"The Factorial of number is {i}= {fact}")
+#  fact=fact*i
+#  print(f"The Factorial of number is {i}= {fact}")
 
 
 # wap to print only prime number from 1 to 15

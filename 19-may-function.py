@@ -166,10 +166,11 @@
 
 # def char(a):
 #     if a in "aeiouAEIOU":
-#         print("vowel")
+#        return "True"
 #     else:
-#         print("consonant")
-# char("a")
+#        return "False"
+# x=char("a")    
+# print(x)
 
 # NOW WE WILL return
 # WAF TO CHECK IS NUMBER COMPLETELY DIVIDED BY 2 AND 3 AND RETURN MESSAGE YES NUMBER IS COMPLETELY DIVISIBLE AND IF NOT THAN NO
@@ -194,18 +195,104 @@
 
 
 # waf to return length of a string pass by user without using length method.
-def len_string(a):
-    c=0
-    for i in a:
-        c+=1
-    return c    
+# def len_string(a):
+#     c=0
+#     for i in a:
+#         c+=1
+#     return c    
 
-res=len_string("python")
-print(res)
-
-
+# res=len_string("python")
+# print(res)
 
 
+# def char(a):
+#     if a in "a,e,i,o,u,A,E,I,O,U":
+#        return "True"
+#     else:
+#        return "False"
+# # x=char("a")    
+# # print(x)
+
+
+# waf to check how many vowels in a given string
+# vcount=0
+# def vowel_count(a):
+#    c=0
+#    for i in a:
+#       print(i)     
+#       if i in "AEIOUaeiou":
+#          c+=1
+#    return c         
+#                                                     #pass laga kar program shuru karo
+# res=vowel_count("programming")
+# print(res)
+
+
+
+# write consonant
+# def count_c(a):
+#    c=0
+#    for i in a:
+#       print(i)
+#       if i in "AEIOUaeiou":
+#          print("No consonant")
+#       else:
+#          c+=1
+#    return c
+
+# res=count_c("My name is Manisha")
+# print(res)
+
+#LOCAL VARIABLE -PRESENT INSIDE FUNCTION VS GLOBAL VARIABLE-PRESENT OUTSIDE FUNCTION AND U HAVWE TO DEFINE IT
+# AS GLOBAL OUTSIDE FUNCTION
+# KISI LOCAL VARIABLE KO GLOBALLY ACCESS KARNA HAI TOH USKO INSIDE GLOBAL KARKE DEFINE KAR DO
+
+# name="DEV"               #global
+# def msg():
+#    print("inside:",name)
+# msg()
+# print("outside:",name)   
+
+
+# def msg():
+#    name="DEV"                                #local
+#    print("inside:",name)
+# msg()
+# print("outside:",name)    #isko koi global wala chahiye kyuki wo name toh function ke ander define hai
+
+
+# def msg():
+#    global name
+#    name="DEV"                             
+#    print("inside:",name)
+# msg()
+# print("outside:",name)
+
+
+# waf to count char p in" python programming" return total occurence
+
+# def count_char(a):
+#     print(a)
+#     count=0
+#     for i in a:
+#         print(i)
+#         if i=="p":
+#             count+=1
+#     return count        
+# res= count_char("python programming")
+# print(res)
+
+#  waf to return sum of string indices "python"
+# def indices_sum(a):
+#    print(a)
+#    sum=0
+#    for i in range(len(a)):                 #range use karo indices ke liye
+#       print(i)
+#       sum=sum+i
+#    return sum
+      
+# x=indices_sum("python")
+# print(x)
 
 
 
